@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="记录：想到什么写什么。">
+  <title>Fieldnotes — 逆光天使</title>
+  <link rel="icon" href="assets/favicon.ico?v=1795795293" sizes="any">
+  <link rel="icon" type="image/png" href="assets/icon-192.png?v=1795795293">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=1795795293">
+  <link rel="stylesheet" href="style.css?v=1795878713">
+</head>
+<body>
+<div class="bg-cd" aria-hidden="true">
+  <picture>
+    <source srcset="assets/bg-cd.webp?v=2" type="image/webp">
+    <img src="assets/bg-cd.jpg?v=2" alt="" width="812" height="1080" decoding="async" loading="eager" fetchpriority="low">
+  </picture>
+</div>
+<div class="bg-frost" aria-hidden="true"></div>
+
+
+<header class="nav" id="nav">
+  <a class="brand" href="index.html"><span>_</span><b>NAHYUU</b></a>
+  <span class="nav-mark">γ / 03 — FIELDNOTES</span>
+  <nav class="nav-links" aria-label="主导航">
+    <a href="index.html">Home</a>
+    <a href="music.html">Music</a>
+    <a href="reading.html">Reading</a>
+    <a href="fieldnotes.html" aria-current="page">Notes</a>
+    <a href="yanye.html">Words</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换明暗">◐</button>
+    <button class="bgm-toggle" id="bgmToggle" type="button" aria-label="背景音乐" aria-pressed="false" title="背景音乐：关">♪</button>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-eyebrow"><span>γ / 03 — FIELDNOTES</span><span>12 丝</span></div>
+      <h2 class="title">记录</h2>
+      <hr class="rule">
+
+      <div class="note-groups">
+
+        <div class="note-group" id="stars">
+          <button class="note-toggle" type="button" aria-expanded="false" aria-controls="stars-body">
+            <span class="note-title">星</span>
+            <span class="note-side"><em>12 组</em><span class="note-caret" aria-hidden="true">＋</span></span>
+          </button>
+          <div class="note-body" id="stars-body" hidden>
+            <div class="st-list" id="star-list"></div>
+          </div>
+        </div>
+
+        <div class="note-group" id="poems">
+          <button class="note-toggle" type="button" aria-expanded="false" aria-controls="poems-body">
+            <span class="note-title">诗</span>
+            <span class="note-side"><em>12 首</em><span class="note-caret" aria-hidden="true">＋</span></span>
+          </button>
+          <div class="note-body" id="poems-body" hidden>
+            <div class="poem-list">
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">公园里</h3>
+                  <span class="poem-meta">Le Jardin<i>·</i>Jacques Prévert<i>·</i>《话语集》1946</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">几千年，几万年<br>也说不尽<br>说不出<br>那短短一秒钟的永恒<br>你吻了我<br>我吻了你<br>冬日的晨光里<br>在巴黎，蒙苏里公园<br>在巴黎<br>在大地上<br>大地是一颗星。</p>
+                  <p class="poem-fr" lang="fr">Des milliers et des milliers d'années<br>Ne sauraient suffire<br>Pour dire<br>La petite seconde d'éternité<br>Où tu m'as embrassé<br>Où je t'ai embrassée<br>Un matin dans la lumière de l'hiver<br>Au parc Montsouris à Paris<br>À Paris<br>Sur la terre<br>La terre qui est un astre.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">信天翁</h3>
+                  <span class="poem-meta">L'Albatros<i>·</i>Charles Baudelaire<i>·</i>《恶之花》1857</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">常常，为了取乐，水手们<br>捉来信天翁，这些海上大鸟，<br>懒散的旅伴，一路跟着<br>滑过苦涩深渊的船。<br><br>他们刚把它扔在甲板上，<br>这些碧空之王就变得笨拙又羞惭，<br>可怜地垂下巨大的白翼，<br>像两支桨拖在脚边。<br><br>这长翅膀的旅客，多么别扭、多么无用！<br>它本多么美，如今多么可笑、多么丑！<br>一个用烟斗戳它的喙，<br>一个跛着脚，模仿那曾会飞的东西。<br><br>诗人正像这云中的君王，<br>出入风暴，嘲笑弓箭手；<br>被放逐在地上，置身哄笑之中，<br>巨人的翅膀反而让它走不了路。</p>
+                  <p class="poem-fr" lang="fr">Souvent, pour s'amuser, les hommes d'équipage<br>Prennent des albatros, vastes oiseaux des mers,<br>Qui suivent, indolents compagnons de voyage,<br>Le navire glissant sur les gouffres amers.<br><br>À peine les ont-ils déposés sur les planches,<br>Que ces rois de l'azur, maladroits et honteux,<br>Laissent piteusement leurs grandes ailes blanches<br>Comme des avirons traîner à côté d'eux.<br><br>Ce voyageur ailé, comme il est gauche et veule !<br>Lui, naguère si beau, qu'il est comique et laid !<br>L'un agace son bec avec un brûle-gueule,<br>L'autre mime, en boitant, l'infirme qui volait !<br><br>Le Poète est semblable au prince des nuées<br>Qui hante la tempête et se rit de l'archer ;<br>Exilé sur le sol au milieu des huées,<br>Ses ailes de géant l'empêchent de marcher.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">晨光</h3>
+                  <span class="poem-meta">Aube<i>·</i>Arthur Rimbaud<i>·</i>《灵光集》1886</span>
+                </header>
+                <div class="poem-paras">
+                  <div class="poem-para">
+                    <p class="poem-zh">我吻了夏天的黎明。</p>
+                    <p class="poem-fr" lang="fr">J'ai embrassé l'aube d'été.</p>
+                  </div>
+                  <div class="poem-para">
+                    <p class="poem-zh">宫殿的额前还一动不动。水是死的。阴影的营地还没有离开林间的路。我走着，唤醒那些鲜活而温热的呼吸；宝石们望着我，翅膀无声地张开。</p>
+                    <p class="poem-fr" lang="fr">Rien ne bougeait encore au front des palais. L'eau était morte. Les camps d'ombres ne quittaient pas la route du bois. J'ai marché, réveillant les haleines vives et tièdes, et les pierreries regardèrent, et les ailes se levèrent sans bruit.</p>
+                  </div>
+                  <div class="poem-para">
+                    <p class="poem-zh">第一件事，在那条已经洒满清冷苍白碎光的小径上，是一朵花，它告诉了我它的名字。</p>
+                    <p class="poem-fr" lang="fr">La première entreprise fut, dans le sentier déjà empli de frais et blêmes éclats, une fleur qui me dit son nom.</p>
+                  </div>
+                  <div class="poem-para">
+                    <p class="poem-zh">我向那道金色的瀑布笑，它从杉树间披散下来：在银色的顶上，我认出了那位女神。</p>
+                    <p class="poem-fr" lang="fr">Je ris au wasserfall blond qui s'échevela à travers les sapins : à la cime argentée je reconnus la déesse.</p>
+                  </div>
+                  <div class="poem-para">
+                    <p class="poem-zh">于是我一片一片地揭开面纱。在林中路上，我挥动双臂。穿过平原，我向公鸡揭发她。到了大城，她在钟楼与穹顶之间逃；我像乞丐一样跑在大理石码头上追她。</p>
+                    <p class="poem-fr" lang="fr">Alors je levai un à un les voiles. Dans l'allée, en agitant les bras. Par la plaine, où je l'ai dénoncée au coq. À la grand'ville elle fuyait parmi les clochers et les dômes, et courant comme un mendiant sur les quais de marbre, je la chassais.</p>
+                  </div>
+                  <div class="poem-para">
+                    <p class="poem-zh">在路的高处，月桂林边，我用她聚拢的面纱围住她，稍稍触到了她巨大的身体。黎明和孩子一起跌落在林子脚下。</p>
+                    <p class="poem-fr" lang="fr">En haut de la route, près d'un bois de lauriers, je l'ai entourée avec ses voiles amassés, et j'ai senti un peu son immense corps. L'aube et l'enfant tombèrent au bas du bois.</p>
+                  </div>
+                  <div class="poem-para">
+                    <p class="poem-zh">醒来时，已是正午。</p>
+                    <p class="poem-fr" lang="fr">Au réveil il était midi.</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">我的目光清澈如向日葵</h3>
+                  <span class="poem-meta">O meu olhar…<i>·</i>Alberto Caeiro<i>·</i>《我将宇宙随身携带》</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">我的目光清澈如一朵向日葵。<br>我习惯走在路上，<br>望望右边，望望左边，<br>偶尔也回头望一望……<br>而我在每一刻看见的，<br>都是我此前从未见过的东西，<br>这一点我很清楚……<br>我懂得那原初的惊愕，<br>一个孩子若在出生时<br>就明白自己真的出生了，就会有……<br>我感到自己每一刻都在新生，<br>为着世界永恒的崭新……</p>
+                  <p class="poem-fr" lang="pt">O meu olhar é nítido como um girassol.<br>Tenho o costume de andar pelas estradas<br>Olhando para a direita e para a esquerda,<br>E de vez em quando olhando para trás...<br>E o que vejo a cada momento<br>É aquilo que nunca antes eu tinha visto,<br>E eu sei dar por isso muito bem...<br>Sei ter o pasmo essencial<br>Que tem uma criança se, ao nascer,<br>Reparasse que nascera deveras...<br>Sinto-me nascido a cada momento<br>Para a eterna novidade do Mundo...</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">消息</h3>
+                  <span class="poem-meta">Le Message<i>·</i>Jacques Prévert<i>·</i>《话语集》1946</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">有人打开的门<br>有人重新关上的门<br>有人坐过的椅子<br>有人抚摸过的猫<br>有人咬过的果子<br>有人读过的信<br>有人打翻的椅子<br>有人打开的门<br>有人还在奔跑的路<br>有人穿过的树林<br>有人跳下去的河<br>有人死去的医院。</p>
+                  <p class="poem-fr" lang="fr">La porte que quelqu'un a ouverte<br>La porte que quelqu'un a refermée<br>La chaise où quelqu'un s'est assis<br>Le chat que quelqu'un a caressé<br>Le fruit que quelqu'un a mordu<br>La lettre que quelqu'un a lue<br>La chaise que quelqu'un a renversée<br>La porte que quelqu'un a ouverte<br>La route où quelqu'un court encore<br>Le bois que quelqu'un traverse<br>La rivière où quelqu'un se jette<br>L'hôpital où quelqu'un est mort.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">应和</h3>
+                  <span class="poem-meta">Correspondances<i>·</i>Charles Baudelaire<i>·</i>《恶之花》1857</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">自然是一座神殿，那里活的柱子<br>有时吐出含混不清的言语；<br>人从那里穿过，穿过象征的森林，<br>森林用熟悉的目光望着他。<br><br>像悠长的回声在远处混成一片，<br>在幽暗而深沉的统一之中，<br>浩瀚如黑夜，也浩瀚如光明，<br>芳香、颜色与声音彼此应和。<br><br>有的香气鲜嫩如孩童的肌肤，<br>柔和如双簧管，青翠如草原，<br>——另一些，腐坏、浓郁而凯旋，<br><br>有着无限之物的那种扩散，<br>如琥珀、麝香、安息香与乳香，<br>歌唱着灵魂与感官的狂喜。</p>
+                  <p class="poem-fr" lang="fr">La Nature est un temple où de vivants piliers<br>Laissent parfois sortir de confuses paroles ;<br>L'homme y passe à travers des forêts de symboles<br>Qui l'observent avec des regards familiers.<br><br>Comme de longs échos qui de loin se confondent<br>Dans une ténébreuse et profonde unité,<br>Vaste comme la nuit et comme la clarté,<br>Les parfums, les couleurs et les sons se répondent.<br><br>Il est des parfums frais comme des chairs d'enfants,<br>Doux comme les hautbois, verts comme les prairies,<br>— Et d'autres, corrompus, riches et triomphants,<br><br>Ayant l'expansion des choses infinies,<br>Comme l'ambre, le musc, le benjoin et l'encens,<br>Qui chantent les transports de l'esprit et des sens.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">沉思</h3>
+                  <span class="poem-meta">Recueillement<i>·</i>Charles Baudelaire<i>·</i>《恶之花》1861</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">安静些，我的痛苦，别再那样躁动。<br>你要的是黄昏；它来了，正往下沉：<br>一层昏暗的气息裹住整座城，<br>给一些人安宁，给另一些人忧心。<br><br>当那卑琐的众人，<br>在欢乐这无情的鞭子底下，<br>在奴性的宴席上拾捡回忆，<br>我的痛苦，把手给我；往这边来，<br><br>远离他们。看那逝去的年岁<br>俯在天界的阳台上，穿着过时的衣裙；<br>从水底浮起微笑的悔恨；<br><br>垂死的太阳在一道拱门下睡去，<br>而像一具长长的裹尸布拖向东方，<br>听，亲爱的，听那温柔的黑夜在走路。</p>
+                  <p class="poem-fr" lang="fr">Sois sage, ô ma Douleur, et tiens-toi plus tranquille.<br>Tu réclamais le Soir ; il descend ; le voici :<br>Une atmosphère obscure enveloppe la ville,<br>Aux uns portant la paix, aux autres le souci.<br><br>Pendant que des mortels la multitude vile,<br>Sous le fouet du Plaisir, ce bourreau sans merci,<br>Cueille des souvenirs dans la fête servile,<br>Ma Douleur, donne-moi la main ; viens par ici,<br><br>Loin d'eux. Vois se pencher les défuntes Années<br>Sur les balcons du ciel, en robes surannées ;<br>Surgir du fond des eaux le Regret souriant ;<br><br>Le Soleil moribond s'endormir sous une arche,<br>Et, comme un long linceul traînant à l'Orient,<br>Entends, ma chère, entends la douce Nuit qui marche.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">懒学生</h3>
+                  <span class="poem-meta">Le Cancre<i>·</i>Jacques Prévert<i>·</i>《话语集》1946</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">他用头说不<br>却用心说好<br>他对自己喜欢的说好<br>他对老师说不<br>他站着<br>人们问他问题<br>所有的问题都摆在那里<br>忽然一阵狂笑攫住他<br>他把一切都擦掉<br>数字和词语<br>日期和名字<br>句子和陷阱<br>不顾老师的威胁<br>在神童们的嘘声里<br>用各种颜色的粉笔<br>在不幸的黑板上<br>他画出了幸福的脸。</p>
+                  <p class="poem-fr" lang="fr">Il dit non avec la tête<br>mais il dit oui avec le cœur<br>il dit oui à ce qu'il aime<br>il dit non au professeur<br>il est debout<br>on le questionne<br>et tous les problèmes sont posés<br>soudain le fou rire le prend<br>et il efface tout<br>les chiffres et les mots<br>les dates et les noms<br>les phrases et les pièges<br>et malgré les menaces du maître<br>sous les huées des enfants prodiges<br>avec des craies de toutes les couleurs<br>sur le tableau noir du malheur<br>il dessine le visage du bonheur.</p>
+                </div>
+              </article>
+            
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">对应</h3>
+                  <span class="poem-meta">Correspondances<i>·</i>Charles Baudelaire<i>·</i>《恶之花》1857</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">自然是一座神殿，活的柱子<br>有时漏出含混的言语；<br>人从那里穿过，穿过象征的森林，<br>那些森林用熟悉的眼光看他。<br><br>像远处汇成一片的长长回声<br>在幽暗而深沉的统一里，<br>辽阔如黑夜，也辽阔如光明，<br>香气、颜色与声音彼此应答。<br><br>有香气鲜嫩如孩童的肌肤，<br>柔和如双簧管，青翠如草原，<br>——另一些腐坏、浓郁而凯旋，<br><br>带着无尽之物的那种铺展，<br>如琥珀、麝香、安息香与乳香，<br>歌唱精神与感官的沉醉。</p>
+                  <p class="poem-fr" lang="fr">La Nature est un temple où de vivants piliers<br>Laissent parfois sortir de confuses paroles ;<br>L'homme y passe à travers des forêts de symboles<br>Qui l'observent avec des regards familiers.<br><br>Comme de longs échos qui de loin se confondent<br>Dans une ténébreuse et profonde unité,<br>Vaste comme la nuit et comme la clarté,<br>Les parfums, les couleurs et les sons se répondent.<br><br>Il est des parfums frais comme des chairs d'enfants,<br>Doux comme les hautbois, verts comme les prairies,<br>— Et d'autres, corrompus, riches et triomphants,<br><br>Ayant l'expansion des choses infinies,<br>Comme l'ambre, le musc, le benjoin et l'encens,<br>Qui chantent les transports de l'esprit et des sens.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">感觉</h3>
+                  <span class="poem-meta">Sensation<i>·</i>Arthur Rimbaud<i>·</i>1870</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">夏夜蓝时，我将走上小径，<br>被麦芒轻刺，踩着细草：<br>做着梦，脚底会感到那股凉。<br>我让风洗我赤裸的头。<br><br>我不说话，什么也不想：<br>但无尽的爱会升进我的灵魂，<br>我将走向远方，很远，像一个波希米亚人，<br>穿过自然——幸福得像身边有个女人。</p>
+                  <p class="poem-fr" lang="fr">Par les soirs bleus d'été, j'irai dans les sentiers,<br>Picoté par les blés, fouler l'herbe menue :<br>Rêveur, j'en sentirai la fraîcheur à mes pieds.<br>Je laisserai le vent baigner ma tête nue.<br><br>Je ne parlerai pas, je ne penserai rien :<br>Mais l'amour infini me montera dans l'âme,<br>Et j'irai loin, bien loin, comme un bohémien,<br>Par la Nature, — heureux comme avec une femme.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">秋歌</h3>
+                  <span class="poem-meta">Chanson d'automne<i>·</i>Paul Verlaine<i>·</i>《无言的浪漫曲》1866</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">秋天的<br>小提琴<br>的长泣<br>单调地<br>伤我的心<br>以倦意。<br><br>窒息着<br>又苍白，当<br>钟敲响，<br>我想起<br>旧日的<br>日子，我哭；<br><br>我就走<br>随那<br>带走我的<br>恶风，<br>这边，那边，<br>像一片枯叶。</p>
+                  <p class="poem-fr" lang="fr">Les sanglots longs<br>Des violons<br>De l'automne<br>Blessent mon cœur<br>D'une langueur<br>Monotone.<br><br>Tout suffocant<br>Et blême, quand<br>Sonne l'heure,<br>Je me souviens<br>Des jours anciens<br>Et je pleure ;<br><br>Et je m'en vais<br>Au vent mauvais<br>Qui m'emporte<br>Deçà, delà,<br>Pareil à la<br>Feuille morte.</p>
+                </div>
+              </article>
+
+              <article class="poem">
+                <header class="poem-head">
+                  <h3 class="poem-title">米拉波桥</h3>
+                  <span class="poem-meta">Le Pont Mirabeau<i>·</i>Guillaume Apollinaire<i>·</i>《醇酒集》1913</span>
+                </header>
+                <div class="poem-cols">
+                  <p class="poem-zh">米拉波桥下塞纳河流<br>还有我们的爱<br>我该不该记起<br>快乐总在痛苦之后来<br><br>夜来吧钟敲吧<br>日子过去我留下<br><br>手牵着手我们面对面<br>趁双臂的桥下<br>流过的水那样倦<br>永恒的目光在走<br><br>夜来吧钟敲吧<br>日子过去我留下<br><br>爱走了像这流水<br>爱走了<br>生命多么慢<br>希望又多么烈<br><br>夜来吧钟敲吧<br>日子过去我留下<br><br>日子过星期也过<br>过去的时间<br>过去的爱都不回来<br>米拉波桥下塞纳河流<br><br>夜来吧钟敲吧<br>日子过去我留下</p>
+                  <p class="poem-fr" lang="fr">Sous le pont Mirabeau coule la Seine<br>Et nos amours<br>Faut-il qu'il m'en souvienne<br>La joie venait toujours après la peine<br><br>Vienne la nuit sonne l'heure<br>Les jours s'en vont je demeure<br><br>Les mains dans les mains restons face à face<br>Tandis que sous<br>Le pont de nos bras passe<br>Des éternels regards l'onde si lasse<br><br>Vienne la nuit sonne l'heure<br>Les jours s'en vont je demeure<br><br>L'amour s'en va comme cette eau courante<br>L'amour s'en va<br>Comme la vie est lente<br>Et comme l'Espérance est violente<br><br>Vienne la nuit sonne l'heure<br>Les jours s'en vont je demeure<br><br>Passent les jours et passent les semaines<br>Ni temps passé<br>Ni les amours reviennent<br>Sous le pont Mirabeau coule la Seine<br><br>Vienne la nuit sonne l'heure<br>Les jours s'en vont je demeure</p>
+                </div>
+              </article>
+</div>
+          </div>
+        </div>
+
+
+        <div class="note-group" id="dreams">
+          <button class="note-toggle" type="button" aria-expanded="false" aria-controls="dreams-body">
+            <span class="note-title">梦</span>
+            <span class="note-side"><em>10 幅</em><span class="note-caret" aria-hidden="true">＋</span></span>
+          </button>
+          <div class="note-body" id="dreams-body" hidden>
+            <div class="dream-grid">
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/bosch.webp?v=1" alt="基督降入地狱" width="900" height="446" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">基督降入地狱</h3>
+                <p class="dream-meta">Christ's Descent into Hell<i>·</i>传博斯<i>·</i>16 世纪上半叶</p>
+                <p class="dream-txt">整幅画几乎没有一处安宁：火光从两侧洞口烧出来，人影与兽形缠在暗处，中间那一小块亮的地方就是地狱的入口。博斯把地狱当成一个可以俯瞰的空间来画，横长条的画面像一张地图——这种「从上面看下去」的眼光，四百年后才在超现实主义那里重新出现。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/goya.webp?v=1" alt="理性沉睡，恶魔丛生" width="649" height="900" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">理性沉睡，恶魔丛生</h3>
+                <p class="dream-meta">El sueño de la razón produce monstruos<i>·</i>戈雅<i>·</i>1799</p>
+                <p class="dream-txt">一个人趴在桌上睡着，身后猫头鹰、蝙蝠和一只猫的眼睛全亮着。这是《狂想曲》系列第 43 幅，铜版飞尘，凶气是从纸的纹理里渗出来的。画名就写在桌沿上，戈雅自己给过解释：想象一旦离开理性，生下来的就只是怪物。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/redon.webp?v=1" alt="阿波罗的战车" width="900" height="725" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">阿波罗的战车</h3>
+                <p class="dream-meta">The Chariot of Apollo<i>·</i>奥迪隆·雷东<i>·</i>1905–16</p>
+                <p class="dream-txt">太阳神被几匹马拉向高处，可马几乎看不清，只有身体在云与尘光之间浮动。雷东大半生都在做黑白石版画，晚年才大量用色，这张属于那之后。它只有 66 × 81 厘米——小到一个房间就能装下整个太阳。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/klee.webp?v=1" alt="战神" width="778" height="900" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">战神</h3>
+                <p class="dream-meta">God of War<i>·</i>保罗·克利<i>·</i>1937</p>
+                <p class="dream-txt">一张脸被拧在红框里，五官像拆开的零件又装了回去，下面几根细线撑起一个站不稳的架子。1937 年克利已经病重，同一年他的作品被纳粹划进「堕落艺术」展。画里没有刀剑，只有一张被画成装置的脸。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/marc.webp?v=1" alt="创世 II" width="749" height="893" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">创世 II</h3>
+                <p class="dream-meta">Genesis II<i>·</i>弗朗茨·马尔克<i>·</i>1914</p>
+                <p class="dream-txt">画里几乎没有一处平静的平面，动物的轮廓与林木绞在一起，黑色像裂口一样劈下来。马尔克相信动物比人更接近世界的内在，所以他画的不是动物，是它们看世界的方式。两年后他死在凡尔登。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/mondrian.webp?v=1" alt="红、黄、蓝构成" width="887" height="900" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">红、黄、蓝构成</h3>
+                <p class="dream-meta">Composition with Red, Yellow, and Blue<i>·</i>皮特·蒙德里安<i>·</i>1927</p>
+                <p class="dream-txt">黑线切成方格，红黄蓝各占一角，其余全是近乎白的空白。1927 年他还在找「再少一点」：树、海、教堂，一路减到只剩直线与三原色。看起来最安静的一张，其实是他最激进的主张——绘画不必再描绘任何东西。</p>
+              </article>
+            
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/bocklin.webp?v=3" alt="死之岛" width="900" height="559" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">死之岛</h3>
+                <p class="dream-meta">Isle of the Dead<i>·</i>阿诺德·勃克林<i>·</i>1880</p>
+                <p class="dream-txt">一座岛从深色的水里立起来，正中一丛柏树，两侧岩壁上凿出方形的墓门，一条小船正把一口棺材和一个裹白布的人送过去。柏树在地中海是墓树，所以这一整片黑绿其实是一句墓志。勃克林前后画了五个版本，没有一个说明岛上葬的是谁——他把它画成了「谁都可以葬在那里」的地方。这一幅最早，据说起因是有人想要一张能让人做梦的画。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/rosa.webp?v=3" alt="埃涅阿斯的梦" width="900" height="1460" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">埃涅阿斯的梦</h3>
+                <p class="dream-meta">The Dream of Aeneas<i>·</i>萨尔瓦托·罗萨<i>·</i>1660–65</p>
+                <p class="dream-txt">埃涅阿斯穿着铠甲睡着了，剑还握在手里；一个老人从阴影里倾下身来，长发里缠着芦苇，一只手向下指着。这是台伯河神在夜里给他指路，告诉他往拉丁姆去。整个画面只有两处亮：睡着的人的肩甲，和神的手臂——梦里的神不说话，只指方向（《埃涅阿斯纪》第八卷）。罗萨是那不勒斯人，风景、巫术、恐怖都画，这一张是他把神话压到最低音的样子。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/rousseau.webp?v=3" alt="饿狮" width="900" height="634" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">饿狮</h3>
+                <p class="dream-meta">The Repast of the Lion<i>·</i>亨利·卢梭<i>·</i>约 1907</p>
+                <p class="dream-txt">丛林里，一头狮子伏在蕨叶间啃一具猎物，树后刚好升起一轮淡白的月亮。卢梭从没去过热带：那些叶子是他从植物园温室、画册和标本里一样一样抄来的，每一片都画得同样清楚，前后不讲虚实，于是整片丛林看上去像一块挂毯，也像梦里的背景——知道自己被造出来，但照样密不透风。</p>
+              </article>
+
+              <article class="dream">
+                <figure class="dream-fig">
+                  <img src="assets/dream/blake.webp?v=3" alt="克拉伦斯的梦" width="760" height="1268" loading="lazy" decoding="async">
+                </figure>
+                <h3 class="dream-name">克拉伦斯的梦</h3>
+                <p class="dream-meta">Clarence's Dream<i>·</i>威廉·布莱克<i>·</i>1774</p>
+                <p class="dream-txt">《理查三世》第一幕第四场，关在伦敦塔里的克拉伦斯公爵睡着，梦见他害死过的人一个一个进来：先是被刺的爱德华王子，接着是亨利六世的幽灵，最后是围上来的鬼影。布莱克刻这张版画时十七岁，线条细得像蛛丝，鬼魂从右下角往左上一步一步压过去，被梦的人反而缩在角落。这里的梦不是隐喻，是人自己要还的账。</p>
+              </article>
+</div>
+          </div>
+        </div>
+        <div class="note-group">
+          <button class="note-toggle" type="button" aria-expanded="false" aria-controls="disks-body">
+            <span class="note-title">线</span>
+            <span class="note-side"><em>12 丝</em><span class="note-caret" aria-hidden="true">＋</span></span>
+          </button>
+          <div class="note-body" id="disks-body" hidden>
+          <div class="disks">
+        <div class="disk" tabindex="0" title="Ascension">
+          <span class="disk-cover">
+            <img src="assets/notes/ascension.webp?v=2" alt="Ascension" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>ode to Coltrane。Ascension作为科川艺术生涯的重要分水岭，是自由爵士发展史上里程碑式的作品。科川在A love supreme的大获全胜后并未停止对声音与集团演奏的探索，在Albert ayler和Cecil taylor的影响下，Coltrane选择了一条更为先锋前卫的道路来表达自己对声音与情绪的探索，Ascension由此诞生。</p><p> 为实现这次对声音的前卫探索，Coltrane召集了当时10位当时的年轻先锋乐手，除去Coltrane四重奏的McCoy Tyner，Jimmy Garrison，Elvin Jones以及Coltrane本人，还有日后大方光彩的Pharoah Sanders，Archie Shepp，Marion Brown，John Tchicai，Dewey Johnson，Freddie Hubbard，Art Davis。</p><p> 5支萨克斯、2支小号、钢琴、双贝斯、鼓的十一人组成的实验大乐队，构成了Ascension独特的声音组成方式。Ascension的录音并没有事先排练，Coltrane只负责为整体发声提供框架，其余的都靠乐手间配合组成的集体即兴演奏，这也是有两个版本的原因。脱离了A love supreme的演奏构造，启奏阶段，乐手们放弃了和声与调式，将音响能量堆积，狂暴尤及其浓厚。</p><p> 乐手们在独奏阶段释放着自己的声音，编制出独特的动态进行与声场，特别是五位萨克斯手，大量使用啸叫式音色、泛音，并与扩展技巧相结合，配合着鼓手密集的鼓点，这也是很多人难以接受的原因，声场的能量太过密集与强烈。总而言之，Ascension所带来的沉浸式体验是浓厚的，这也是它作为经典中的经典的原因。</p></span></span>
+          <span class="disk-title">Ascension</span>
+          <span class="disk-meta">John Coltrane<span class="dot">·</span>1966</span>
+        </div>
+        <div class="disk" tabindex="0" title="龍寨">
+          <span class="disk-cover">
+            <img src="assets/notes/longzhai.webp?v=2" alt="龍寨" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>狮子麒麟凤，你陷入了龙寨的陷阱。作为YoungQueenz的第三张录音室专辑，ozma并未因异常火曜日和御宅mobb的成功而改变，不再爱惜作为艺术家的羽毛。反而他一鼓作气，通过创作的力量中把羽毛打磨锋利，散发着致命的光泽。ozma也用自己的艺术创造把粤语说唱推上了又一高峰。团龙织锦的封面与专辑名龍寨相呼应，映照了该ep与九龙城寨所具备的凶戾与奇异底色。</p><p> 实体专辑cover的每一块团龙布料个不相同，充满匠气。团龙图案与布料设计也让我们想起龙胆紫的经典专辑F.T.W，相同神韵的设计，北京与香港遥相呼应，同样存在着不可言说的秘密。ozma的嗓音对于第一次听的人来说可能过于粗粝，在耳道奔腾打得你头晕目眩，多磨几遍耳朵之后，嗓音与唱腔独特的韵味则成为了锁链将你牢牢锁住，感受ozma的能量。 整专ep共九首歌，在略带日系气息的trap beats上，YoungQueenz横冲直撞，通过凶狠粗粝的嗓音腔调向全世界描绘出白描歌词中所展现的血淋淋带着cult气质的九龙城寨，狂野且令人沉醉。</p><p>在香港文化与欧美日本文化高度碰撞的时代，ozma写出了自己对社会的思考与如同自己一样的年轻人在这奇美拉环境下的生活。 对autotune的出色运用也是ozma的一大特点，迷幻的trap下，精妙的punchline化为裹满盐粒的拳头打出，拳拳到肉，凶狠无比，虽然段落并不太多。YAT PIT听着太爽了呀！</p></span></span>
+          <span class="disk-title">龍寨</span>
+          <span class="disk-meta">YoungQueenz<span class="dot">·</span>2018</span>
+        </div>
+        <div class="disk" tabindex="0" title="神隱 Spirited Away">
+          <span class="disk-cover">
+            <img src="assets/notes/shenyin.webp?v=2" alt="神隱 Spirited Away" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>被神明掳走的人去了哪里？youngqueenz给出了他的答案：一片由人性生长而成的无边森林，包裹在浓稠的雾气中，数不尽的幽灵在你耳边嘶吼。封面设计致敬了kanye的yeezus，极简设计的基础上别出心裁的加入了干花的点缀。花朵代表着植物的欲望，占据封面的视觉中心，也暗示着专辑讨论的重心便是人性与自然。 值得一提的是，实体专辑也采用了干花的设计，这也意味着每一张专辑都是独一无二的。</p><p>专辑名字神隐spirited away则是致敬了经典电影千与千寻，在电影中，千寻一家人遭遇神隐事件，误入了神灵世界，经过一系列事件后解救家人。这里引出了本专辑的第二个概念：YQ困在神隐的世界，想要将自己从欲望与痛苦中救赎。 整专专辑基调建立于新世纪音乐和氛围音乐，迷幻的浓雾吞噬了一切，YQ作为漂浮在这森林的幽魂，跌跌撞撞着寻找着出口，迷幻的森林中有象征着人类原罪的蛇果，代表着此岸彼岸的曼珠沙华，YQ在人性中反复飘摇。</p><p>同时，歌词大量引用了圣经中的文本或概念，这是YQ想要的救赎，用耶稣的血洗净自己全身的罪。脱胎于新世纪音乐和氛围音乐的编曲带着极简的底色，电子音音效的引入增添了编曲的迷幻氛围，让我想起了著名毒电波游戏sayo教的ost，同样聚焦特定的场景，充满狂气与迷幻。 ozma的腔调很好的与每首歌融合，不再是龙寨中的高能量与暴戾，我们看到了ozma在武装之下的脆弱。</p><p>你吹一口氣… 由 泥土到細胞到骨頭和血肉 由 神經到精神到 眼睛裡靈魂在跳動</p></span></span>
+          <span class="disk-title">神隱 Spirited Away</span>
+          <span class="disk-meta">YoungQueenz<span class="dot">·</span>2020</span>
+        </div>
+        <div class="disk" tabindex="0" title="渋星">
+          <span class="disk-cover">
+            <img src="assets/notes/shiboshi.webp?v=2" alt="渋星" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>穿过无尽的幻想与虚妄，我落入了星体的轨道。作为渋さ知らズ（涩不知）的巅峰代表作，《渋星》酣畅淋漓地将乐团名所代表的粗旷原始的生命力体现。神佛，水母，浮世绘随着萨克斯的每一次吼叫，直冲太空，在太空中飘摇。整张专辑乐曲有两首来自星体爵士先锋sun ra的专辑《space is the place》以及林荣一的名曲《naadam》，在原曲的基础上，不破大辅带领涩不知进行了破坏性的重构，将原有的小乐团编制与编排，构造成二十余人的大编制乐团。</p><p> 这一举动如同打开了潘多拉魔盒，各色奇异的景象，幻想，能量随着铜管乐器的嘶吼，打击乐器的推进，贝斯的的无处不在共同描绘出了这一幅太空浮世绘。二十余人大乐团的极繁主义编排带来的是秩序与混沌无与伦比的交锋，齐奏阶段乐句惊涛骇浪般向你袭来，如同要将你吞噬一般。即兴阶段则成为了各声部乐手间的角力与协同，每一拍呼吸的能量都顶满，乐句充斥着呼吸与流动。</p><p> 大乐队的演奏是混沌的，但整体的编制是肌理分明且协调有序的。整张专辑是东西方自由爵士的完美融合，自由且前卫的底色上覆盖着独属于日本在传统文化下各类运动失败而累积的情色，狂妄，怪诞的纹路。是一个与传统美学背道而驰的另一个日本，一个在现代化与民主化下形成的怪诞景观。</p></span></span>
+          <span class="disk-title">渋星</span>
+          <span class="disk-meta">渋さ知らズ<span class="dot">·</span>2004</span>
+        </div>
+        <div class="disk" tabindex="0" title="菊花夜行军">
+          <span class="disk-cover">
+            <img src="assets/notes/juhua.webp?v=2" alt="菊花夜行军" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>一排排菊花如路灯 如军队 守护着在夜晚与晨间劳作的农民们 这是一部独属于广大中国农民的魔幻史诗 乡土中国通过音乐的形式传达给了这个世界 交工乐队对农民群众的关怀无出其右 专辑聚焦于一代农民 他们面临着时代的变迁而带来的产业转型 想要坐上转型的快车 却困于自身的局限性 只好只身面对这时代洪流 想要在这世间寻找到自己的活法 然后巨大的鸿沟早已存在 背井离乡换来的只有无尽的乡愁与不服气的不干 整张专辑都写满了他们的愁与苦 魔幻现实随着唢呐 胡琴 三弦等传统乐器与农村常见的摩托车声 牛铃声 口哨 广播 风声水声铺展开 菊花夜行军所描绘的故事其实就是这片广袤土地上各村庄的缩影 人与人之间 人与事之间 人与时代之间 这是这片土地最土的东西 也是根植在这个民族的根 同样是为了生计而奔波的人民 菊花夜行军也让我想起了山城棒棒军这部纪录片 从农村出来的每个人都有自己苦闷与忧愁 每个人的故事都可以称得上悲剧 正是这些苦涩还有质朴的喜悦 构成了我们的民族 虽然我听不懂客家话 但演唱出的愁苦与快乐超越了语言 传递出的一切都是由最为真切的情感编制而成 有谁能在收听风神125的时候不热泪盈眶呢</p></span></span>
+          <span class="disk-title">菊花夜行军</span>
+          <span class="disk-meta">交工乐队<span class="dot">·</span>2002</span>
+        </div>
+        <div class="disk" tabindex="0" title="萬花鏡">
+          <span class="disk-cover">
+            <img src="assets/notes/manhua.webp?v=2" alt="萬花鏡" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>佐井好子的昭和奇谭 在日本文学 漫画最为瑰丽且诡谲的昭和时代 自幼酷爱文学绘画的佐井好子在大学生病修养期间 一头扎入了这些黑暗奇幻文学 奇异的文学与画面成为了佐井好子创作的养料 佐井好子创造的万华镜是一个黑暗迷幻的世界 天马行空的虚幻场景 略带恐怖残忍的意象 在民俗怪谈与黑暗文学间来回穿梭 我们真的被吸入了佐井好子的万华镜世界 制作专辑的乐手都是昭和时代的大师 大野雄二的键盘 平山万佐子的琵琶 新音乐协会的弦乐 村岡実的尺八 昭和时代的迷幻黑暗气息在每一个音符间复苏涌现 再搭配上佐井好子颇有艺术诗歌气息的歌词与编排 演歌般的唱法 这是独属于她的恶之花 这张专辑就像是少女椿般迷幻黑暗狂乱的世界</p></span></span>
+          <span class="disk-title">萬花鏡</span>
+          <span class="disk-meta">佐井好子</span>
+        </div>
+        <div class="disk" tabindex="0" title="無能">
+          <span class="disk-cover">
+            <img src="assets/notes/munou.webp?v=2" alt="無能" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>作为the cabs的主脑 日本残响系场景核心人物高桥国光的独立企划Österreich乐队承载了替高桥国光表达内心另一面的职责 它也很好的实现了这一任务 高桥国光诗句般的词作 在数学摇滚框架下 通过镰野爱的嗓音传达给了每一个人 褪去the cabs中的轰音与嘶吼 Österreich传达着一种文艺哲学的对世界 对爱的思考 这是一种独特的气质 温柔 忧郁 迷茫 简短的ep是高桥国光所写下的童话</p></span></span>
+          <span class="disk-title">無能</span>
+          <span class="disk-meta">österreich<span class="dot">·</span>2015</span>
+        </div>
+        <div class="disk" tabindex="0" title="星間性交">
+          <span class="disk-cover">
+            <img src="assets/notes/space.webp?v=2" alt="星間性交" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>这张是luke laurila的集大成作品之一 充满了未来与复古的听感 将大量采样重组融合降调 营造出置身于外太空的氛围感 luke真的太懂雪泥波了 这种迷幻蒸汽波的舒缓空灵 通过他的延迟与混响 营造出的空间感与纵深感 反复在听众的左右声道回响重现 每首歌十余分钟的篇幅 也让luke在行进结构上大展拳脚 每首歌总能让你跟随他的音轨不断深入 意识逐渐飘向太空 专辑全长两个多小时 一定要找个安静的夜晚从头到尾一口气听完 美得无与伦比</p></span></span>
+          <span class="disk-title">星間性交</span>
+          <span class="disk-meta">t e l e p a t h テレパシー能力者<span class="dot">·</span>2015</span>
+        </div>
+        <div class="disk" tabindex="0" title="ガウディの憂鬱">
+          <span class="disk-cover">
+            <img src="assets/notes/gaudi.webp?v=2" alt="ガウディの憂鬱" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>与封面突兀人脸相对应的整张专辑的浪漫温柔忧郁的气质 如同漫步在深夜的东京街头 阴郁的夜晚 柏仓隆史的鼓点如绵延的车流 通过流动的声音 把夜晚的地标连接起来 同时 这带着千禧年气质的电气groove孕育出了一种身临其境的深夜氛围 最喜欢在晚上听这张专辑 从头到尾 就像一场深夜的旅行 然后从梦中苏醒</p></span></span>
+          <span class="disk-title">ガウディの憂鬱</span>
+          <span class="disk-meta">ホテルニュートーキョー<span class="dot">·</span>2006</span>
+        </div>
+        <div class="disk" tabindex="0" title="あらためまして、はじめまして、ミドリです。">
+          <span class="disk-cover">
+            <img src="assets/notes/midori.webp?v=2" alt="あらためまして、はじめまして、ミドリです。" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>在乐队人员多次变动后，midori的第二张录音室专辑あらためまして、はじめまして、ミドリです问世了，此时的乐队编制为小銭喜刚、后藤まりこ、ハジメ，岩见のとっつあん四人。在前两张ep和第一张录音室专辑的探索与磨合后，本专成为了midori独特的艺术朋克、噪音摇滚、爵士摇滚、后硬核风格的集大成者，是他们向全世界毫不掩饰地展示自己才气的标志性声音。</p><p> 在我心中，后藤是比椎名林檎和户川纯更为狂气的女人，乐队在视觉上的表现也十分充满反差与张力，身着水手服的妹妹头后藤在舞台上以近乎疯狂的形式怒吼，甚至开场之前还用麦克风把自己砸得头破血流，这种精神状态极度的不稳定与疯狂便是midori最引人注目的精华，这也是midori乐队音乐的灵魂。intro简短地吉他弹唱，像是后藤桑一脸害羞地向你表白一般。</p><p> 如此小清新的曲目对所有没听过midori乐队的人来说都会是一个致命的陷阱，毕竟这太具有迷惑性了，并且这首也是全专音量最小的一首，大部分听众可能会在不知情的情况下把音乐加大，而迎接他们的便是后藤的怒吼。专辑此刻开始能量已经顶满了，后藤高喊的destroy和蓄势待发的鼓铺垫了最为出色的键盘声部。随后便是充满能量的吼叫与一系列意识流的歌词，但似乎又能从这些直言碎语中找到本专可能的主题：爱。</p><p> 后藤扮演了ゆきこさん小姐脑子中的两个极端，一方面是想要毁掉一切的怒火，另一方面又是想将爱吞入肚中一人独享的渴望，在二者之间不断摆动。这种爱让我想起了户川纯的好き好き大好き，一种病态与扭曲和疯狂，这正也是听众为之着迷的地方。值得一说的是，全专bass的音色与爵士乐中的doule bass的音色十分相近，再加上自由爵士般的编曲，更为音乐增色不少。</p><p> かなしい日々承接了上一首的键盘与贝斯的律动与氛围，后藤继续顶满能量输出，歌词充斥着对爱人病态的控制欲，想要困住你，想要操控你的情绪，和我在一起不允许存在悲伤，乐队歌词的暴力性与情色性也逐渐出现在听众的视野中心。从お猿开始能量减弱，编曲上更趋向于爵士乐的编排，同时bass开始逐渐变得更为突出，节奏也多了一份swing的感觉。 根性无しあたし、あほぼけかす作为短暂的中场休息，让听众从前面三首的爆炸中拉出，避免了听觉上的疲劳感。</p><p>后藤略夹的嗓音配合轻快的键盘营造了一种相对轻松的氛围，甚至还有几分卡农的味道。而歌词依旧是那么独特，带着对死亡的思考，可以说与编曲十分充满反差感了。ちはるの恋用独特的bass将摇摆感引入，随着鼓手的号令，器乐配合如同舞台剧一般展开。 bass最为突出部分，配合着后藤神经质的唱法，将歌曲的氛围摇摆般推进，其它器乐配合也相当出彩，特别是键盘部分，为全专的爵士味做出了巨大的贡献。</p><p>歌词仍旧是带着破坏与爱，其中最搞的就是每一小节后都要唱一句你爸干了啥，真的让人摸不着头脑。到了ひみつの2人，歌曲的摇摆与行进感又由键盘手创造了，同时键盘也让人情不自禁地想要舞蹈一番，相当优秀。 还记得intro后藤的表白吗，想让全世界人类消失，只剩下你我。歌词开始聚焦与你我二人，在紧紧拥抱着舞蹈时，少女不断追问着爱人，想要了解关于他的一切，而对面似乎对这份病态的爱不知如何是好，在得到答案后，舞蹈在键盘中结束了。</p><p>5拍子依旧是由出色的钢琴引入，随后器乐间配合的质感又回到前四首时的感觉，紧密且灵性。 键盘营造出了一种凄美且狂气的场景，后藤也将唱法从放声大叫改为了一种带着破碎感与脆弱的唱腔。困惑的少女不断扣问着自己，究竟什么是爱，自己对爱的定义到是什么。想必是爱人承受不住自己的疯狂而躲了起来让少女破碎了，同时失真的吉他也把内心那份躁动放大。后半部分的器乐与人声的吟唱更为这份独特的美感增色不少，可以说让本曲近乎完美。</p><p> ハウリング地狱一开始便是不断重复的充满压迫感的失真吉他riff，特别有金属乐到味道，再搭配上充满旋律感的钢琴，一种充满侵略的紧迫感充斥了听众的耳膜。特别是后藤高声吼叫时，你能明显感觉到吉他音色变成了mbv的only shallow的感觉。歌词承接了上一部分少女的失恋，转而走向绝望，想前往自己脑髓中的地狱。 无欲の无力，因为少女失去了发声的力气，引入歌曲的变成了一段尖锐的噪音，随后又是器乐的片段化出现，类似牙钻的音色铺垫在了轨道下方。</p><p>随后鼓手逐渐接管了现场，随着拍子的不断行进，各种电子音色一一展现，再点缀着带着延迟的失真吉他，器乐逐渐来到了高潮。节奏变得愈发激烈，带着爵士与朋克的noise rock将听众之前的疲劳一扫而空，再加上后藤插入的声音和吉他高速轰鸣，听众的情绪被带到了最高潮的部分，就如同压抑的情感被释放了一般，让人十分舒畅，这首也是我认为全专层次最为优秀的一首。</p><p> 随后器乐戛然而止，本专结束。短短31分钟的体验，却让人心潮澎湃不已，优秀的编排让midori独特的听感最大限度的发挥，每一首都有独特的记忆点且容易入耳。对我来说再长个十分钟也是能够接受的。</p></span></span>
+          <span class="disk-title">あらためまして、はじめまして、ミドリです。</span>
+          <span class="disk-meta">ミドリ<span class="dot">·</span>2008</span>
+        </div>
+        <div class="disk" tabindex="0" title="時間">
+          <span class="disk-cover">
+            <img src="assets/notes/jikan.webp?v=2" alt="時間" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>作为betcover的转型之作，時間一改前两张的青少年的躁动与热血，演变成了更为深邃与黑暗的成熟，作为betcover的转型之作，時間衔接了前两张的青少年的躁动与热血，向更为深邃与黑暗的成熟演变。二郎也在此阶段褪去了青少年时期的稚气，走向了带着精致胡须与西装的别样成熟，尽管此时他才22，却已然拥有了一股独特的成熟气质，带着暴力与情色性，这正是二郎推崇的气质。</p><p> 時間与中学生和告白两张的气质差别很大，乐队编曲从传统j-rock的道路上离开，走向了爵士实验的方向，并开始涉足艺术摇滚，毋庸置疑，这是betcover！在进化的最好证明。专辑开篇的幽灵，乐器简单的堆叠营造出了独特的颓废氛围，也孕育着一股危机感，二郎用着碎片话言语向看不见的幽灵讲述着崩溃的一切，像是精神病人的喃喃自语，讲述着自己以往的故事，随着鬼魂的怒吼，危机感爆发了。</p><p> 然后归于沉寂，依旧是动荡的危机感，搭配着后半段的留白与人声变调处理，听众进入了時間的场景。值得一提的事，这些歌词都来自于柳濑二郎平日随身携带的小本，每当他想到一句值得玩味的歌词时他便会马上记录下来，专辑大部分碎片化歌词都是来自于此。下一首狐最为出彩的便是神经质般的场景堆叠描绘与灵动诡异的笛子，开头的人声变调处理就极大程度上将听众带入了这股黑暗的氛围，贝斯如同一把回旋的油锯，在低频中回响。</p><p> 祭典的到来，狐狸的聚集与作祟，衔接诡谲的笛子是轰鸣的电吉他，进一步将场景的狂气展现，伴随全专的底噪也在此刻放大，电吉他的音色变成了人类的哀嚎，只剩下狐狸的使徒对你的讥讽。あいどる，全曲鼓都稳定的行进着，伴随电吉他的扫弦，营造出焦躁的氛围又如同梦一般虚幻，随着这份复杂的情绪过度到了回転・天使，开篇带着梦核质感的电吉他如同一条隧道般，幽深宁静。</p><p> 伴随着鼓点的引入，我们进入了另一个世界，与天使缠绵的黄昏，破旧的场景与夕阳映衬着天使与我笨拙的舞蹈，场景被fuzz音色的电吉他无限拉长，然后回归注视天使的视角，依旧是黄昏，我们仍舞蹈着，天使并不存在，只是她残存的幻影，吉他再一次把情绪拔高，随后再简单收尾，如同泡沫破碎般。我们进入到了島的世界，失真的合成器与底噪还有不断loop的铃声以及如火焰剧烈燃烧的嗡鸣声营造出一种危机的氛围，贝斯全程沉闷的进行着。</p><p> 中间的变调与合唱，铃声音效与器乐堆叠让危机感放大到最大，再到后面的歌词重复演唱与高昂的合成器的奔涌而出，眼泪将与这股危机感一同释放。二限の窓引入了小号与右声道的吉他扫弦，青春时代的躁动在此刻重现了，困在教室的青少年的内心世界翻涌着，进入副歌，全曲最为惊艳的合成器片段已经清晰的铺垫在二郎的音色下。乐器突然只剩鼓与吉他的合奏，变调处理的人声再一次出现了，如同青春期少年内心的另一个自己不断诘问着自我，这一切真是自己所想所要的吗？</p><p>人声再一次变化，变成了未处理的与处理声音的混合，随后便是乐器的激烈进行。 二郎的轻声唱段搭配着失真柔和的合成器，铺垫着情绪的爆发，随着全专最为惊艳的合成器出现，教室中只剩下自己，望着脱离日常的时针，少年将那扇窗户打开了，内心的一切的焦躁忧虑幸福喷涌而出，最终回归日常，鼓轻快的打击着，贯穿全曲的合成器回归了温柔的音色。遠い遠い親戚，大片段的钢琴与二郎温柔的歌声，让人仿佛置身于记忆中某个温柔的午后或是夏日的某个黄昏，时间变得慢了，我们得到了片刻的安宁，但随着钢琴音量的拔高，充满躁动的电吉他入侵了记忆，钢琴的音色与电吉他的迷噪相互配合，不再是危机感与焦躁，反而是一种安详的感觉，如同少年走向成熟一般。</p><p> 记忆继续展开着，piano随着人声有节奏的的喊响，器乐一同奏出，迷幻的氛围席卷了全身。鼓轻快且精准的行进，充当着这迷幻氛围中的路灯，不断带领思绪驶向远方。再到后面人声与鼓的独奏。终点站到来了，一片广阔的空间出现了，迎接着所有的感情与器乐，失真的背景与清脆的打击乐混合着，与合唱在空间中回响混合。依旧是有节奏的人声的到来，迷幻的梦醒了，随后清新的爵士小调为一切收尾。</p><p> 到了棘を抜いて歩く的部分，专辑前半段所营造的黑暗气质早已过渡为了黄昏般的明亮，温柔成为了专辑的主要基调。后半段的人声合唱会勾起你大脑的中某个情景，像是许久以前与某位友人在黄昏中分别，我们真的还会再见面吗，不如在此尽情离别吧。在黄昏中，专辑迎来了最后一首ポポ，二郎的歌声变得缥缈，与迷噪的器乐融为了一片浓厚的阳光，照射在着黄昏的土地上，一切都过去了，焦躁不甘的青春，痛苦的离别，接下来便是带着这份包含痛楚的成熟前进，随着过载吉他的点弦与鼓的猛烈，自由爵士般的键盘点缀着情感，去看那新生的太阳吧。</p></span></span>
+          <span class="disk-title">時間</span>
+          <span class="disk-meta">betcover!!<span class="dot">·</span>2021</span>
+        </div>
+        <div class="disk" tabindex="0" title="戦前と戦後">
+          <span class="disk-cover">
+            <img src="assets/notes/senzen.webp?v=2" alt="戦前と戦後" width="320" height="320" loading="lazy" decoding="async">
+          </span>
+          <span class="disk-note"><span class="disk-note-in"><p>在与法国遥望的日本 菊地成孔是极为浪漫的 骨子里带着日本的物哀与法国的浪漫 褪去前卫自由爵士的气质 这张充满了他私人化的性感 值得一听</p></span></span>
+          <span class="disk-title">戦前と戦後</span>
+          <span class="disk-meta">菊地成孔<span class="dot">·</span>2014</span>
+        </div>
+          </div>
+          </div>
+        </div>
+
+                <div class="note-group" id="np">
+          <button class="note-toggle" type="button" aria-expanded="false" aria-controls="np-body">
+            <span class="note-title">滑翔</span>
+            <span class="note-side"><em>12 件</em><span class="note-caret" aria-hidden="true">＋</span></span>
+          </button>
+          <div class="note-body" id="np-body" hidden>
+            <div class="np-list">
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">誓约胜利之剑</h3></div>
+          <p class="np-sub">Caliburnus / Caledfwlch<i>·</i>亚瑟<i>·</i>不列颠</p>
+          <p class="np-txt">剑名在拉丁传统里写作 Caliburnus，首见于蒙茅斯的杰弗里的《不列颠诸王史》第九卷（约 1136 年）；威尔士本土的写法是 Caledfwlch，见于《库尔赫维奇与奥尔温》——现存最早的亚瑟王散文故事之一，约 1100 年。这两处只给名字，不给来历。来历是后来分两路补上的：石中剑一路，见于罗伯特·德·博隆的《梅林》（约 1200 年），剑插石上、以拔剑定王，而原典里这把剑后来在战斗中断折；湖中剑一路，见于 13 世纪的《梅林续篇》，湖中仙女把剑交到亚瑟手中。今日通行的叙述把两把剑并成一把，是传奇合并的结果，不是原本的样子。</p>
+          <p class="np-src">原典 · 杰弗里《不列颠诸王史》IX，约 1136；《库尔赫维奇与奥尔温》，约 1100；罗伯特·德·博隆《梅林》，约 1200；《梅林续篇》，13 世纪</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">天地乖离开辟之星</h3></div>
+          <p class="np-sub">Ea<i>·</i>吉尔伽美什<i>·</i>巴比伦</p>
+          <p class="np-txt">Ea 是阿卡德语神名，对应的苏美尔语写法是 Enki，职司淡水、智慧与咒术。在《埃努玛·埃利什》里他是阿普苏之子：阿普苏欲灭众神，Ea 先下手，用咒语使阿普苏沉睡、捆住他的谋臣 Mummu，然后在自己父亲的身体上筑居所。真正杀死提亚马特的是他的儿子马尔杜克——用的是四面风、一张网和一支箭，先把她的嘴撑开，再射穿腹部，最后把她的尸体剖成两半，一半为天、一半为地。全诗没有一把以 Ea 为名的剑：这是一件按「创世者」的名号造出来的兵器，原典提供的只是名与位置，不是物。</p>
+          <blockquote class="np-quote"><span class="q-orig">e-nu-ma e-liš la na-bu-ú šá-ma-mu<br>šap-liš am-ma-tum šu-ma la zak-rat</span><span class="q-zh">当高天尚未得名，下地也还没有名字。</span></blockquote>
+          <p class="np-src">原典 · 《Enūma Eliš》泥板 I–IV；阿卡德语，七块泥板，亚述巴尼拔本约前 7 世纪</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">王之财宝</h3></div>
+          <p class="np-sub">Gate of Babylon<i>·</i>吉尔伽美什<i>·</i>乌鲁克</p>
+          <p class="np-txt">这是《吉尔伽美什史诗》的第一行，也充当全诗的题名。标准巴比伦版共十二块泥板，现存最完整的抄本出自公元前 7 世纪亚述巴尼拔图书馆，编纂者传统上归于 Sîn-lēqi-unninni；更早还有一组苏美尔语短诗（Bilgames 组诗），故事各自独立。史诗的骨架：泥板 I–II 造恩奇都、二人相搏而结友；VI 拒伊什塔尔、杀天牛；VII–VIII 恩奇都病死；XI 洪水与返老还童草被蛇叼走。所谓「王拥有一切」，在文本里对应的正是这种全景式的清单——他见过城、见过荒野、见过洪水与死的边界。</p>
+          <blockquote class="np-quote"><span class="q-orig">ša nagba īmuru išdi māti</span><span class="q-zh">见过深渊、见过大地根基的人。</span></blockquote>
+          <p class="np-src">原典 · 《吉尔伽美什史诗》标准巴比伦版，泥板 I–XII；Sîn-lēqi-unninni 本，约前 1300–1000 编定</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">十二试炼</h3></div>
+          <p class="np-sub">God Hand<i>·</i>赫拉克勒斯<i>·</i>希腊</p>
+          <p class="np-txt">十二项功业的完整清单保存在伪阿波罗多洛斯的《书目》II.5.1–12：涅墨亚狮、勒拿九头蛇、刻律涅亚鹿、厄律曼托斯野猪、奥革阿斯的牛厩、斯廷法利斯湖的怪鸟、克里特公牛、狄俄墨得斯的牝马、希波吕忒的腰带、革律翁的牛群、赫斯珀里得斯的金苹果、把刻耳柏洛斯带出冥界。荷马《伊利亚特》第八卷也提到他下过冥界牵狗，可见这条故事线在史诗层已经成立。原典里他一共死了几次？一次：在俄塔山上自焚，升格为神。数字十二属于差事，不属于性命。</p>
+          <p class="np-src">原典 · 伪阿波罗多洛斯《书目》II.5；荷马《伊利亚特》VIII.362–365</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">王之军势</h3></div>
+          <p class="np-sub">Hetairoi<i>·</i>亚历山大<i>·</i>马其顿</p>
+          <p class="np-txt">hetairoi 是马其顿王家的重装骑兵，字面意思就是「伙伴」。阿里安《亚历山大远征记》第三卷记高加米拉之战的列阵：王领右翼，伙伴骑兵随他冲击；同书第七卷记他在奥皮斯宴会上祈愿「马其顿人与波斯人和睦共治」。普鲁塔克《亚历山大传》另记他把亚里士多德校订的《伊利亚特》抄本放进匣中随军携带，与短剑同置枕下——一个把诗与刀放在一起的人。这支军队的「数量」由史料给出：出征时约三万步兵、五千骑兵，到印度时已成混合编制。</p>
+          <p class="np-src">原典 · 阿里安《亚历山大远征记》III、VII；普鲁塔克《亚历山大传》VIII、XXVI</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">万符必将破戒</h3></div>
+          <p class="np-sub">Rule Breaker<i>·</i>美狄亚<i>·</i>科尔基斯</p>
+          <p class="np-txt">《美狄亚》的开场第一句由乳母说出：一切灾祸都从那次航行算起。美狄亚是科尔基斯王埃厄忒斯之女、赫利俄斯的孙女，她帮伊阿宋取金羊毛，随他叛父出走；在欧里庇得斯的版本里，她到科林斯后被弃，先以毒衣烧死公主格劳刻与国王克瑞翁，再亲手杀死自己的两个孩子，最后乘赫利俄斯的龙车离去。这出戏在公元前 431 年的竞赛中只得第三名。她的「破戒」不是一次，而是一串：父、弟、夫、子，都在同一条线上。</p>
+          <blockquote class="np-quote"><span class="q-orig">εἴθ' ὤφελ' Ἀργὼ μὴ διαπτάσθαι σκάφος<br>Κολχῶν ἐς αἶαν κυανέας Συμπληγάδας</span><span class="q-zh">但愿阿尔戈号从未穿过那深蓝的撞岩，飞向科尔基斯。</span></blockquote>
+          <p class="np-src">原典 · 欧里庇得斯《美狄亚》，公元前 431；阿波罗尼俄斯《阿尔戈英雄纪》；伪阿波罗多洛斯 I.9</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">骑英之缰绳</h3></div>
+          <p class="np-sub">Pegasus<i>·</i>美杜莎<i>·</i>戈耳工</p>
+          <p class="np-txt">《伊利亚特》第六卷 155–203 行讲柏勒洛丰：普罗伊托斯的妻子安忒亚诬告他，普罗伊托斯不愿亲手杀客，便把他遣往吕基亚，在折叠的木板上刻下「凶兆的记号」让岳父处置。吕基亚王命他去杀喷火的喀迈拉，他借飞马珀伽索斯取胜。珀伽索斯的来历在赫西俄德《神谱》280–286 行：美杜莎被珀耳修斯斩首时，从她颈中跳出克律萨俄耳与飞马。缰绳则是雅典娜所赐的金辔（伪阿波罗多洛斯 II.3）。马后来把他掀下来，因为他想飞上奥林波斯。</p>
+          <blockquote class="np-quote"><span class="q-orig">πέμπε δέ μιν Λυκίηνδε, πόρεν δ' ὅ γε σήματα λυγρά</span><span class="q-zh">他把他遣往吕基亚，交给他一些凶兆的记号。</span></blockquote>
+          <p class="np-src">原典 · 荷马《伊利亚特》VI.155–203；赫西俄德《神谱》280–286；伪阿波罗多洛斯 II.3</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">骑士不死于徒手</h3></div>
+          <p class="np-sub">Lancelot du Lac<i>·</i>兰斯洛特<i>·</i>不列颠</p>
+          <p class="np-txt">兰斯洛特的完整形象成形于 13 世纪法语散文《兰斯洛特》（Prose Lancelot，约 1215–1235），它是《兰斯洛特-圣杯》正典循环的第二部，也是欧洲散文传奇里最长的一部。文本交代了他的来历：父亲班王死后，他被湖中仙女带走抚养，因此姓「du Lac」——湖。他成年后入亚瑟宫廷，与王后桂妮薇儿相爱，这段私情最终撕裂圆桌；散文正典的后半部《亚瑟之死》就由这场裂口推进。他的武力在文本里被写成一种失控：多处段落里他陷入狂乱（folie），徒手撕开镣铐、以断剑与拳掌杀出重围。</p>
+          <p class="np-src">原典 · 《Prose Lancelot》，约 1215–1235；《Lancelot-Grail》正典循环；马洛里《亚瑟之死》1485</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">红莲圣女</h3></div>
+          <p class="np-sub">La Pucelle<i>·</i>贞德<i>·</i>法兰西</p>
+          <p class="np-txt">贞德自己用的称呼是 la Pucelle，意为少女；1429 年她口述给英国人的书信以「Jhesus Maria」起头，署名「la Pucelle」。1431 年 2 月到 5 月，她在鲁昂受宗教法庭审讯，拉丁记录由书记官 Guillaume Manchon 等整理成《定罪审判记录》；5 月 30 日在旧市场广场火刑，年十九。二十五年后，1456 年的《无罪审判》推翻原判；1920 年封圣。文本里最冷的一处细节：审讯问她是否知道自己处在恩典之中，她答「若我不在，愿神将我放入；若我在，愿神将我留住」——这句话让法庭无法定她异端。</p>
+          <p class="np-src">原典 · 《定罪审判记录》1431（拉丁文，Manchon 整理）；《无罪审判》1456；1920 年封圣</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">突刺死棘之枪</h3></div>
+          <p class="np-sub">Gáe Bolga<i>·</i>库·丘林<i>·</i>阿尔斯特</p>
+          <p class="np-txt">《夺牛记》（Táin Bó Cúailnge）是阿尔斯特循环的核心长篇，两大抄本：Lebor na hUidre（约 1100）与 Book of Leinster（约 1160），前者是更早、更粗粝的版本。库·丘林的师承见《Tochmarc Emire》：他在阿尔班（今斯凯岛一带）随女战士斯卡哈学艺，与她同宿，学得枪术与「英雄之鲑」的跳跃。Gáe Bolga 之名与形态散见于这一传统：刺入身体后展开倒刺，取枪须割开皮肉。他在最后一战里以脚趾掷出此枪，杀死了自己的结义兄弟费迪亚德。</p>
+          <p class="np-src">原典 · 《Táin Bó Cúailnge》，Lebor na hUidre 约 1100；Book of Leinster 约 1160；《Tochmarc Emire》</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">人子啊，紧系神明吧</h3></div>
+          <p class="np-sub">Enkidu<i>·</i>恩奇都<i>·</i>乌鲁克</p>
+          <p class="np-txt">泥板 I：众神为制衡吉尔伽美什，命阿鲁鲁女神捏土造人，恩奇都浑身是毛、与野兽同食草，不知城与人；猎人把他引到神妓沙姆哈特面前，六天七夜之后他失去野性，兽群离开了他。泥板 II：他到乌鲁克，与吉尔伽美什在街头相搏，打成平手，随后成为唯一的朋友；两人同去雪松林杀洪巴巴。泥板 VII：因杀死天牛，众神判恩奇都死，他卧病十二日而亡，吉尔伽美什抱着尸体不肯放手，第一次意识到自己也会死——史诗后半部求不死之草的动机全部从这里开始。</p>
+          <p class="np-src">原典 · 《吉尔伽美什史诗》泥板 I–II、VI–VIII；标准巴比伦版</p>
+        </article>
+
+        <article class="np-item">
+          <div class="np-head"><h3 class="np-name">日轮啊，顺从死亡</h3></div>
+          <p class="np-sub">Vasavi Shakti<i>·</i>迦尔纳<i>·</i>俱卢</p>
+          <p class="np-txt">迦尔纳是贡蒂婚前向太阳神求子所得，出生即被放在河中，由车夫夫妇养大，因此终生被叫作「车夫之子」。《摩诃婆罗多》记因陀罗怕他，化身婆罗门向他讨要天生的黄金甲与耳环；迦尔纳割下相赠，因陀罗惭而赠他一支枪——Vasavi Shakti，只能投掷一次，必杀一人。他留着这支枪对付阿周那，最后在俱卢之野投向了瓶首。史诗以这句问话开场，十九天后，几乎所有人都死在这片田里。</p>
+          <blockquote class="np-quote"><span class="q-orig">dharmakṣetre kurukṣetre samavetā yuyutsavaḥ<br>māmakāḥ pāṇḍavāś caiva kim akurvata sañjaya</span><span class="q-zh">在正法之田、俱卢之田上，我的儿子们与般度之子们列阵求战——桑贾亚啊，他们做了什么？</span></blockquote>
+          <p class="np-src">原典 · 《摩诃婆罗多》〈优多迦篇〉〈德罗纳篇〉〈迦尔纳篇〉；《薄伽梵歌》1.1</p>
+        </article>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <span>© NAHYUU · 逆光天使</span>
+  <a href="index.html">← BACK</a>
+</footer>
+
+<script src="router.js?v=1795795293"></script>
+<script src="script.js?v=1795795293"></script>
+<script src="notes.js?v=1795865864"></script>
+<script src="stars.js?v=1795877494"></script>
+<script src="bgm.js?v=1795795293"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="言叶：法语、英语、德语、日语的语法、词汇、变位与发音。">
+  <title>言叶 — 逆光天使</title>
+  <link rel="icon" href="assets/favicon.ico?v=1795795293" sizes="any">
+  <link rel="icon" type="image/png" href="assets/icon-192.png?v=1795795293">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=1795795293">
+  <link rel="stylesheet" href="style.css?v=1795878713">
+</head>
+<body>
+<div class="bg-cd" aria-hidden="true">
+  <picture>
+    <source srcset="assets/bg-cd.webp?v=2" type="image/webp">
+    <img src="assets/bg-cd.jpg?v=2" alt="" width="812" height="1080" decoding="async" loading="eager" fetchpriority="low">
+  </picture>
+</div>
+<div class="bg-frost" aria-hidden="true"></div>
+
+
+<header class="nav" id="nav">
+  <a class="brand" href="index.html"><span>_</span><b>NAHYUU</b></a>
+  <span class="nav-mark">δ / 04 — WORDS</span>
+  <nav class="nav-links" aria-label="主导航">
+    <a href="index.html">Home</a>
+    <a href="music.html">Music</a>
+    <a href="reading.html">Reading</a>
+    <a href="fieldnotes.html">Notes</a>
+    <a href="yanye.html" aria-current="page">Words</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换明暗">◐</button>
+    <button class="bgm-toggle" id="bgmToggle" type="button" aria-label="背景音乐" aria-pressed="false" title="背景音乐：关">♪</button>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-eyebrow"><span>δ / 04 — WORDS</span><span id="yy-total">0 / 0</span></div>
+      <h2 class="title">言叶</h2>
+      <hr class="rule">
+
+      <nav class="lang-tabs" id="langTabs" role="tablist" aria-label="语言">
+        <button class="lang-tab on" type="button" role="tab" aria-selected="true" data-lang="fr">法语</button>
+        <button class="lang-tab" type="button" role="tab" aria-selected="false" data-lang="en">英语</button>
+        <button class="lang-tab" type="button" role="tab" aria-selected="false" data-lang="de">德语</button>
+        <button class="lang-tab" type="button" role="tab" aria-selected="false" data-lang="ja">日语</button>
+      </nav>
+
+      <div class="dict-links" id="yy-links"></div>
+
+      <nav class="yan-tabs" role="tablist" aria-label="言叶">
+        <button class="yan-tab on" type="button" role="tab" aria-selected="true" data-tab="gram">语法 A1→C1</button>
+        <button class="yan-tab" type="button" role="tab" aria-selected="false" data-tab="verb">动词变位</button>
+        <button class="yan-tab" type="button" role="tab" aria-selected="false" data-tab="phon">语音与发音</button>
+      </nav>
+
+      <div class="yan-pane" data-pane="gram">
+        <div class="fr-panel" id="fr-panel">
+          <div class="fr-tools">
+            <span class="fr-progress">
+              <span class="fr-progress-bar"><i id="fr-bar"></i></span>
+              <b id="fr-count">0 / 0</b>
+            </span>
+            <span class="fr-actions">
+              <button class="fr-btn" id="fr-only" type="button" aria-pressed="false">只看未学</button>
+              <button class="fr-btn" id="fr-reset" type="button">重置</button>
+            </span>
+          </div>
+          <nav class="fr-levels" id="fr-levels" role="tablist" aria-label="级别"></nav>
+          <div class="fr-table" id="fr-table"></div>
+        </div>
+      </div>
+
+      <div class="yan-pane" data-pane="verb" hidden>
+        <nav class="fr-levels" id="verb-pick" aria-label="动词"></nav>
+        <div class="verb-scroll"><div class="verb-table" id="verb-table"></div></div>
+      </div>
+
+      <div class="yan-pane" data-pane="phon" hidden>
+        <p class="fr-hint" id="phon-warn" hidden></p>
+        <div class="phon-list" id="phon-list"></div>
+        <div class="phon-rules" id="phon-rules"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <span>© NAHYUU · 逆光天使</span>
+  <a href="index.html">← BACK</a>
+</footer>
+
+<script src="router.js?v=1795795293"></script>
+<script src="script.js?v=1795795293"></script>
+<script src="french-data.js?v=1795865864"></script>
+<script src="french-words.js?v=1795865864"></script>
+<script src="french-notes.js?v=1795865864"></script>
+<script src="yanye-en.js?v=2"></script>
+<script src="yanye-de.js?v=2"></script>
+<script src="yanye-ja.js?v=1795876343"></script>
+<script src="yanye.js?v=1795876343"></script>
+<script src="bgm.js?v=1795795293"></script>
+</body>
+</html>

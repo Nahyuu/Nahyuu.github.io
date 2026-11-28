@@ -1,0 +1,6 @@
+.weread-key.txt
+# 微信读书 cookie 等同于账号凭证，绝不能提交
+.weread-cookie.txt
+*.cookie
+__pycache__/
+*.pyc

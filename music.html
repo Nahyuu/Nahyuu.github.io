@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="网易云红心歌单">
+  <title>Music — 逆光天使</title>
+  <link rel="icon" href="assets/favicon.ico?v=1795795293" sizes="any">
+  <link rel="icon" type="image/png" href="assets/icon-192.png?v=1795795293">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=1795795293">
+  <link rel="preconnect" href="https://p2.music.126.net" crossorigin>
+  <link rel="preconnect" href="https://cdn.weread.qq.com" crossorigin>
+  <link rel="stylesheet" href="style.css?v=1795878713">
+</head>
+<body>
+<div class="bg-cd" aria-hidden="true">
+  <picture>
+    <source srcset="assets/bg-cd.webp?v=2" type="image/webp">
+    <img src="assets/bg-cd.jpg?v=2" alt="" width="812" height="1080" decoding="async" loading="eager" fetchpriority="low">
+  </picture>
+</div>
+<div class="bg-frost" aria-hidden="true"></div>
+
+
+<header class="nav" id="nav">
+  <a class="brand" href="index.html"><span>_</span><b>NAHYUU</b></a>
+  <span class="nav-mark">α / 01 — MUSIC</span>
+  <nav class="nav-links" aria-label="主导航">
+    <a href="index.html">Home</a>
+    <a href="music.html" aria-current="page">Music</a>
+    <a href="reading.html">Reading</a>
+    <a href="fieldnotes.html">Notes</a>
+    <a href="yanye.html">Words</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换明暗">◐</button>
+    <button class="bgm-toggle" id="bgmToggle" type="button" aria-label="背景音乐" aria-pressed="false" title="背景音乐：关">♪</button>
+  </nav>
+</header>
+
+<main>
+  <!-- 书架 -->
+  <div id="view-shelf">
+    <section class="section">
+      <div class="wrap">
+        <div class="section-eyebrow"><span>α / 01 — MUSIC</span><span id="stat-albums">— 张</span></div>
+        <h2 class="title">唱片</h2>
+        <hr class="rule">
+
+        <div class="toolbar">
+          <input class="search" id="q" type="search" placeholder="搜专辑 / 艺术家" autocomplete="off" aria-label="搜索专辑或艺术家">
+          <select class="select" id="sort" aria-label="排序">
+            <option value="artist">按艺术家</option>
+            <option value="year">按年份</option>
+            <option value="count">按收藏首数</option>
+          </select>
+          <span class="count" id="shelf-count"></span>
+        </div>
+
+        <div class="grid" id="shelf"></div>
+        <div class="more" id="more-wrap"><button type="button" id="more">再看一些 ↓</button></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 单张 -->
+  <div id="view-detail" hidden></div>
+</main>
+
+<footer class="footer wrap">
+  <span>© NAHYUU · 逆光天使</span>
+  <a href="index.html">← BACK</a>
+</footer>
+
+<script src="router.js?v=1795795293"></script>
+<script src="script.js?v=1795795293"></script>
+<script src="bgm.js?v=1795795293"></script>
+<script src="music-data.js?v=1795795293"></script>
+<script src="music.js?v=1795875592"></script>
+</body>
+</html>

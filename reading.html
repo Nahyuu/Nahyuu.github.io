@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="微信读书书架">
+  <title>Reading — 逆光天使</title>
+  <link rel="icon" href="assets/favicon.ico?v=1795795293" sizes="any">
+  <link rel="icon" type="image/png" href="assets/icon-192.png?v=1795795293">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=1795795293">
+  <link rel="preconnect" href="https://p2.music.126.net" crossorigin>
+  <link rel="preconnect" href="https://cdn.weread.qq.com" crossorigin>
+  <link rel="stylesheet" href="style.css?v=1795878713">
+</head>
+<body>
+<div class="bg-cd" aria-hidden="true">
+  <picture>
+    <source srcset="assets/bg-cd.webp?v=2" type="image/webp">
+    <img src="assets/bg-cd.jpg?v=2" alt="" width="812" height="1080" decoding="async" loading="eager" fetchpriority="low">
+  </picture>
+</div>
+<div class="bg-frost" aria-hidden="true"></div>
+
+
+<header class="nav" id="nav">
+  <a class="brand" href="index.html"><span>_</span><b>NAHYUU</b></a>
+  <span class="nav-mark">β / 02 — READING</span>
+  <nav class="nav-links" aria-label="主导航">
+    <a href="index.html">Home</a>
+    <a href="music.html">Music</a>
+    <a href="reading.html" aria-current="page">Reading</a>
+    <a href="fieldnotes.html">Notes</a>
+    <a href="yanye.html">Words</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换明暗">◐</button>
+    <button class="bgm-toggle" id="bgmToggle" type="button" aria-label="背景音乐" aria-pressed="false" title="背景音乐：关">♪</button>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-eyebrow"><span>β / 02 — READING</span><span id="stat-books">— 本</span></div>
+      <h2 class="title">书架</h2>
+      <hr class="rule">
+
+      <div class="stack-tools">
+        <input class="search" id="q" type="search" placeholder="搜书名 / 作者" autocomplete="off" aria-label="搜索">
+        <select class="select" id="sort" aria-label="排序">
+          <option value="recent">最近阅读</option>
+          <option value="author">按作者</option>
+          <option value="title">按书名</option>
+        </select>
+        <span class="count" id="book-count"></span>
+      </div>
+
+      <nav class="group-nav" id="group-nav" aria-label="分类"></nav>
+
+      <div class="stack" id="shelf"></div>
+      <div class="empty" id="empty" hidden>
+        书架还没有接通。<br>
+        运行 <em>tools/refresh-weread.py</em>（需要微信读书 API Key），<br>
+        它会生成 reading-data.js，这一页就活了。
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <span>© NAHYUU · 逆光天使</span>
+  <a href="index.html">← BACK</a>
+</footer>
+
+<script src="router.js?v=1795795293"></script>
+<script src="script.js?v=1795795293"></script>
+<script src="bgm.js?v=1795795293"></script>
+<script src="reading-data.js?v=1795795293"></script>
+<script src="reading.js?v=1795875592"></script>
+</body>
+</html>
